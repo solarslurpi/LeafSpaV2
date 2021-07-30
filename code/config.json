@@ -1,0 +1,9 @@
+{
+    "temp_settings": {
+        "min_veg_temp": "68",
+        "max_veg_temp": "76",
+        "min_flower_temp": "68",
+        "max_flower_temp": "76"
+    },
+    "time_between_readings": "5"
+}
