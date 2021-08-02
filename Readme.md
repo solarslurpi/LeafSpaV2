@@ -33,4 +33,6 @@ Adafruit has [a web page](https://learn.adafruit.com/circuitpython-on-raspberryp
 
 ## Install SMB Support
 To view files (photos for example) on a Windows PC, I installed the SMB service following [these instructions](https://pimylifeup.com/raspberry-pi-samba/). 
-```
+
+# Photosynthesis
+![photosynthesis](images\photosynthesis.jpg)

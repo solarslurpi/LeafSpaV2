@@ -5,8 +5,8 @@
         "min_flower_temp": 68,
         "max_flower_temp": 76
     },
-    "time_between_readings": 5,
-    "time_between_pictures": 6,
+    "time_between_readings": 60,
+    "time_between_pictures": 18000,
     "filename": "readings.csv",
     "overwrite_readings": true
 }

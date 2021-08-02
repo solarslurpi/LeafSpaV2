@@ -24,16 +24,15 @@ class LeafSpa:
         i2c = board.I2C()   # uses board.SCL and board.SDA
         self.scd = adafruit_scd30.SCD30(i2c)
         self.sensors_thread = None
-        self.header = ["date/time","CO2","Temperature","Humidity"]
+        self.header = ["Date/Time", "CO2", "Temperature", "Humidity"]
         self.stop_threads = False
 
     def _get_settings(self, json_params_file):
         with open(json_params_file) as f:
             self.params = json.load(f)
-            print(self.params["temp_settings"]["min_veg_temp"])
-# See SO https://stackoverflow.com/questions/33019698/how-to-properly-round-up-half-float-numbers
-    def _to_int(self,float_num):
 
+# See SO https://stackoverflow.com/questions/33019698/how-to-properly-round-up-half-float-numbers
+    def _to_int(self, float_num):
         with localcontext() as ctx:
             ctx.rounding = ROUND_HALF_UP
             n = Decimal(float_num)
@@ -61,13 +60,6 @@ class LeafSpa:
             if self.stop_threads:
                 break
             if self.scd.data_available:
-                print("Data Available!")
-                print("CO2:", self.scd.CO2, "PPM")
-                print("Temperature:", self.scd.temperature, "degrees C")
-                print("Humidity:", self.scd.relative_humidity, "%%rH")
-                print("")
-                print("Waiting for new data...")
-                print("")
                 self._write_csv_line()
             time.sleep(self.params['time_between_readings'])
 
@@ -79,6 +71,8 @@ class LeafSpa:
             time.sleep(self.params['time_between_pictures'])
 
     def start(self):
+        """start is used to start taking pictures, reading measurements, and adjusting the environment.
+        """
         self.sensors_thread = Thread(target=self._check_environment)
         if self.params["overwrite_readings"] is True:
             self._write_csv_line(header=True)
