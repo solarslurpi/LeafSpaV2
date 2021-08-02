@@ -35,4 +35,12 @@ Adafruit has [a web page](https://learn.adafruit.com/circuitpython-on-raspberryp
 To view files (photos for example) on a Windows PC, I installed the SMB service following [these instructions](https://pimylifeup.com/raspberry-pi-samba/). 
 
 # Photosynthesis
+My job is to increase the photosynthetic process.  
 ![photosynthesis](images\photosynthesis.jpg)
+I'll do this by optimizing these environmental factors:
+- temperature
+- humidity
+- light level
+- CO2 level
+## CO2 Level
+During photosynthesis, plants take in CO2 and water.  Research (in my case Google searches) point out plants will give a 30% bigger yield if we increase the amount of CO2 to between 800 ppm and 1,200 ppm during photosynthesis.  Photosynthesis occurs when there is light.  So the additional CO2 is only needed when the grow lights are on.
