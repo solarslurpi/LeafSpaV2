@@ -50,6 +50,12 @@ class LeafSpa:
                 temp_F = 9./5. * self.scd.temperature + 32
                 sensor_write.writerow([datetime.today().strftime('%Y-%m-%d %H:%M:%S'), self._to_int(self.scd.CO2), self._to_int(temp_F), self._to_int(self.scd.relative_humidity)])
 
+    def _adjust_CO2(self):
+        """During photosynthesis, the CO2 level should be about 1,000 ppm. 
+           This way, energy conversion is accelerated.
+        """
+        pass
+
     def _check_environment(self):
         """ Take Readings, write readings to a file, adjust environment if readings
             suggest the environment is out of range.  The parameter 
@@ -61,6 +67,8 @@ class LeafSpa:
                 break
             if self.scd.data_available:
                 self._write_csv_line()
+            if self.photoresistor.on:
+                self._adjust_CO2()
             time.sleep(self.params['time_between_readings'])
 
     def _take_picture(self):
