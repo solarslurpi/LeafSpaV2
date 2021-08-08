@@ -1,5 +1,20 @@
 # Leafspa V2
-Welcome plants to an environmentally controlled grow space.  Where we make sure:
+The goal is to provide the optimal growing environment using sensors to monitor and.  
+## Plant Growth Stages
+Our plant's growth is broken into stages:
+- Germination: seed to cotyledon _Note: We can successfully get to a cotyledon without a need for sensors or effectors at this stage._
+- Seedling: First serrated leaf to 2-3 sets of serrated leaves.  At this stage, we need to start monitoring and effecting the envioronment.
+
+## Environmental Growth Factors
+Environmental growth factors include:
+- pH of the soil.  The pH of the soil should be between 5.5 and 6.5.
+- An "ideal" wetness of the soil.  The "ideal" wetness will change as the plant grows into another growth stage.
+- Quantity and quality of light.  Plants use the Photosynthesis process to grow.  This requires light within the PAR spectrum as well as the "ideal" amount of photons hitting the leaves during a daily photoperiod.
+## Optimal Environmental Settings
+Optimal Environmental Settings depends on the Growth stage the plant is in.  With that said, air should always be circulating to reduce the chance of mold and mildew.
+### Seedling
+- Temperature: 75F to 80F
+- Humidity: 30 to 40 percent RH
 
 # Hardware
 - [Rasp Pi Zero W](https://www.adafruit.com/product/3400) 
