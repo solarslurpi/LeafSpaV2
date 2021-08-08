@@ -17,7 +17,7 @@ Optimal Environmental Settings depends on the Growth stage the plant is in.  Wit
 ### Seedling
 - Temperature: 75F to 80F
 - Humidity: 30 to 40 percent RH
-- Light: 18 on / 6 off photoperiod, veg setting, PPFD starts during the first week at 200.  After that the PPFD should be 350.
+- Light: 18 on / 6 off photoperiod, veg setting, PPFD starts during the first week at 200.  After that the PPFD will be set to 300. _Note: [source - Understanding Grow Light PAR, PPFD, Wattage and DLI (2021)](https://420expertguide.com/resource/grow-light-par-ppf-ppfd-values-decoded/)
 ### Vegetative
 ### Flowering
 
