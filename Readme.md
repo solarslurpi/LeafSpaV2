@@ -1,7 +1,5 @@
 # Leafspa V2
 Welcome plants to an environmentally controlled grow space.  Where we make sure:
-## Temperature
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQwCI7HmFZRNnnzsosoxz3rOoxC4P00MzPdDobT0KBFUIoCDB1DDuQXaKSnRILICV8_cQfB_rt1BkcJ/pub?w=975&amp;h=339">
 
 # Hardware
 - [Rasp Pi Zero W](https://www.adafruit.com/product/3400) 
