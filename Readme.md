@@ -1,10 +1,40 @@
 # Leafspa V2
+<<<<<<< HEAD
 Welcome plants to an environmentally controlled grow space.  
 ## Resources
 [Common Cannabis Deficiencies](https://www.youtube.com/watch?v=ZTE-YCNWC8s)
 ## Journaling
 I am journaling my successes/failures using DayOne on my iPhone.  DayOne is not available on Windows....
 
+=======
+The goal is to provide the optimal growing environment using sensors to monitor and.  
+## Plant Growth Stages
+Our plant's growth is broken into stages:
+- Germination: seed to cotyledon _Note: We can successfully get to a cotyledon without a need for sensors or effectors at this stage._
+- Seedling: First serrated leaf to 2-3 sets of serrated leaves.  At this stage, we need to start monitoring and effecting the envioronment.
+- Vegetative: Until buds start to form.
+- Flowering: Buds until harvest.
+
+## Environmental Growth Factors
+Environmental growth factors include:
+- pH of the soil.  The pH of the soil should be between 5.5 and 6.5.
+- An "ideal" wetness of the soil.  The "ideal" wetness will change as the plant grows into another growth stage.
+- Quantity and quality of light.  Plants use the Photosynthesis process to grow.  This requires light within the PAR spectrum as well as the "ideal" amount of photons hitting the leaves during a daily photoperiod.
+## Optimal Environmental Settings
+Optimal Environmental Settings depends on the Growth stage the plant is in.  With that said, air should always be circulating to reduce the chance of mold and mildew.
+### Seedling
+- Temperature: 
+  - (ref I didn't get link): 75F to 80F
+  - [68-77F](https://www.ilovegrowingmarijuana.com/temperature/#effects)
+- Humidity: 30 to 40 percent RH
+- Light: 18 on / 6 off photoperiod, veg setting, PPFD starts during the first week at 200.  After that the PPFD will be set to 300. _Note: [source - Understanding Grow Light PAR, PPFD, Wattage and DLI (2021)](https://420expertguide.com/resource/grow-light-par-ppf-ppfd-values-decoded/)_
+### Vegetative
+- Temperature:
+  - [68-77F](https://www.ilovegrowingmarijuana.com/temperature/#effects)
+### Flowering
+- Temperature:
+  - [< 82F](https://www.ilovegrowingmarijuana.com/temperature/#effects)
+>>>>>>> bc67a1490070b28e1f5f5b787c265f407da729ba
 
 # Hardware
 - [Rasp Pi Zero W](https://www.adafruit.com/product/3400) 
