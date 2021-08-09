@@ -1,8 +1,8 @@
 # Leafspa V2
 Where plants enjoy an environmentally controlled grow space.  
 ## Resources
-[Common Cannabis Deficiencies](https://www.youtube.com/watch?v=ZTE-YCNWC8s)
-[Difference between PPF and PPFD](https://www.waveformlighting.com/horticulture/what-is-the-difference-between-ppfd-and-ppf)
+- [Common Cannabis Deficiencies](https://www.youtube.com/watch?v=ZTE-YCNWC8s)
+- [Difference between PPF and PPFD](https://www.waveformlighting.com/horticulture/what-is-the-difference-between-ppfd-and-ppf)
 ## Journaling
 I am journaling my successes/failures using DayOne on my iPhone.  DayOne is not available on Windows....
 
