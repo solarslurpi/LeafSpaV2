@@ -5,10 +5,6 @@
         "min_flower_temp": 68,
         "max_flower_temp": 76
     },
-    "light_interval": {
-        "start": 5,
-        "stop": 23
-    }
     "time_between_readings": 60,
     "time_between_pictures": 18000,
     "filename": "readings.csv",

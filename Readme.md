@@ -1,7 +1,10 @@
 # Leafspa V2
-Welcome plants to an environmentally controlled grow space.  Where we make sure:
-## Temperature
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQwCI7HmFZRNnnzsosoxz3rOoxC4P00MzPdDobT0KBFUIoCDB1DDuQXaKSnRILICV8_cQfB_rt1BkcJ/pub?w=975&amp;h=339">
+Welcome plants to an environmentally controlled grow space.  
+## Resources
+[Common Cannabis Deficiencies](https://www.youtube.com/watch?v=ZTE-YCNWC8s)
+## Journaling
+I am journaling my successes/failures using DayOne on my iPhone.  DayOne is not available on Windows....
+
 
 # Hardware
 - [Rasp Pi Zero W](https://www.adafruit.com/product/3400) 
@@ -37,10 +40,52 @@ To view files (photos for example) on a Windows PC, I installed the SMB service 
 # Photosynthesis
 My job is to increase the photosynthetic process.  
 ![photosynthesis](images\photosynthesis.jpg)
+
 I'll do this by optimizing these environmental factors:
 - temperature
 - humidity
 - light level
 - CO2 level
+# Roots
+
+![roots](images\roots.jpg)
+
+## pH and EC
+The pH and EC need to be right for the roots to be able to take up the nutrients.  pH and EC values can dramatically change based on minerals either in the water or uptake of nutrients.  Spot check and adjust each week using the [Pour Though Method](http://www.css.cornell.edu/courses/260/Media%20testing.pdf)
+- pH should be between 5.5 and 6.5.
+- [EC](https://www.cannaconnection.com/blog/1903-ideal-ec-range-plants#:~:text=An%20indicative%20EC%20range%20for,significantly%20different%20values%20of%20EC.)
+... _An indicative EC range for cannabis plants is 0.8-1.3 for seedlings; 0.5-1.3 for clones; 1.3-1.7 under vegetative phase; 1.2-2 during flowering. Different varieties of cannabis might require significantly different values of EC._
+
+
+## Light Level
+- [ppfd to dli](https://youtu.be/tKzmx6XDOkE?t=330)
+    - PPFD: One PAR reading at a specific time (photosynthetic photon flux density)
+    - DLI: integrating readings across a time period (Daily Light Integral)
+
+![ppfd to dli](images\PPFDvsDLI.jpg) 
+
+- DLI (the total number of photons of PAR accumulated over one given hour, over a 24 hour period).  
+- Typical photoperiods are 18 hour (long day plants) and 12 hour (short day plants).
+```
+DLI = PPFD ( in umol/m2/s) x 60 (minutes/hour) x 60 (seconds/minute) x photoperiod / 1,000,000 umol/mol
+```
+- Weekly Amounts
+
+![AmountOfPPFD](images\AmountOfPPFDpergrowingCycle.jpg)
+
+- Early growth and vegetative (Photoperiod = 18 hours):
+    - First week: 200
+    - Second week: 300
+    - Third week: 400
+    - Fourth and Fifth week: 600
+- Moving to flower stage (Photoperiod = 12 hours):
+    - Start at 650, increase 40 umols / day for first 10 days.
+    - After 10 days, stay at 1000
+
 ## CO2 Level
 During photosynthesis, plants take in CO2 and water.  Research (in my case Google searches) point out plants will give a 30% bigger yield if we increase the amount of CO2 to between 800 ppm and 1,200 ppm during photosynthesis.  Photosynthesis occurs when there is light.  So the additional CO2 is only needed when the grow lights are on.
+
+## Watering
+Because of high PPFD, I'll keep the soil moist (no dry out stress) using the Blumat irrigation.
+
+

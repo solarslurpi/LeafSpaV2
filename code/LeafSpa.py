@@ -67,6 +67,9 @@ class LeafSpa:
                 break
             if self.scd.data_available:
                 self._write_csv_line()
+            # I use a photoresistor to determine if the LEDs are on.  This way,
+            # if the times change for LED on/off, the photoresister will allow me
+            # to detect the change without modifying parameters.
             if self.photoresistor.on:
                 self._adjust_CO2()
             time.sleep(self.params['time_between_readings'])
