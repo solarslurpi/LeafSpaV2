@@ -1,13 +1,11 @@
 # Leafspa V2
-<<<<<<< HEAD
-Welcome plants to an environmentally controlled grow space.  
+Where plants enjoy an environmentally controlled grow space.  
 ## Resources
 [Common Cannabis Deficiencies](https://www.youtube.com/watch?v=ZTE-YCNWC8s)
+[Difference between PPF and PPFD](https://www.waveformlighting.com/horticulture/what-is-the-difference-between-ppfd-and-ppf)
 ## Journaling
 I am journaling my successes/failures using DayOne on my iPhone.  DayOne is not available on Windows....
 
-=======
-The goal is to provide the optimal growing environment using sensors to monitor and.  
 ## Plant Growth Stages
 Our plant's growth is broken into stages:
 - Germination: seed to cotyledon _Note: We can successfully get to a cotyledon without a need for sensors or effectors at this stage._
@@ -26,6 +24,7 @@ Optimal Environmental Settings depends on the Growth stage the plant is in.  Wit
 - Temperature: 
   - (ref I didn't get link): 75F to 80F
   - [68-77F](https://www.ilovegrowingmarijuana.com/temperature/#effects)
+  - [68-72F](https://fluence.science/guides/cannabis-cultivation-guide/( _Table 1_)
 - Humidity: 30 to 40 percent RH
 - Light: 18 on / 6 off photoperiod, veg setting, PPFD starts during the first week at 200.  After that the PPFD will be set to 300. _Note: [source - Understanding Grow Light PAR, PPFD, Wattage and DLI (2021)](https://420expertguide.com/resource/grow-light-par-ppf-ppfd-values-decoded/)_
 ### Vegetative
