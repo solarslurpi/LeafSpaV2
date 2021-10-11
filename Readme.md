@@ -1,5 +1,5 @@
 # Leafspa V2
-The Leafspa provides the home grower of Cannabis plants a way to monitor and dial in environmental factors so that the plants luxuriate in an optimum growing environment.  
+The Leafspa provides the home grower of Cannabis plants a way to monitor and dial in environmental factors such that plants luxuriate in an optimum growing environment.  
 ## Resources
 - [Common Cannabis Deficiencies](https://www.youtube.com/watch?v=ZTE-YCNWC8s)
 - [Difference between PPF and PPFD](https://www.waveformlighting.com/horticulture/what-is-the-difference-between-ppfd-and-ppf)
