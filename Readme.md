@@ -1,5 +1,23 @@
 # Leafspa V2
-The Leafspa provides the home grower of Cannabis plants a way to monitor and dial in environmental factors such that plants luxuriate in an optimum growing environment.  
+The Leafspa is a DIY HVAC system providing the home grower of Cannabis plants an inexpensive way to monitor and dial in key environmental factors so that plants luxuriate in an optimum growing environment.  
+# Environmental Factors
+Environmental facters that are automatically monitored by a microcontroller include:
+- air temperature
+- leaf temperature (used to calculate vpd along with air temperature and relative humidity)
+- relative humidity
+- CO2 level
+The PPFD is manually monitored with a PAR meter.
+_TBD: Moisture sensor to automatical watering_
+# Environmental Adjustments
+The temperature, humidity level, and CO2 level are then automatically adjusted to the preferred level dependent on whether the plants are in the vegetative or flowering state.
+
+The amount of PPFD is adjusted by manually moving the LEDs up or down.
+
+_TBD: Auto watering_
+#Components
+Components of the Leafspa include:
+- Equipment such as a humidifier, etc.
+- Hardware and software such as a Raspberry Pi and software.
 ## Resources
 - [Common Cannabis Deficiencies](https://www.youtube.com/watch?v=ZTE-YCNWC8s)
 - [Difference between PPF and PPFD](https://www.waveformlighting.com/horticulture/what-is-the-difference-between-ppfd-and-ppf)
